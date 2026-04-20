@@ -1,26 +1,55 @@
-# Project Title
-Your project's title
-
-## Student Information
-**Student number:** Your student number <br>
-**Student Name:** Your full name
+# Fresh Bake Bakery Website
 
 ## Project Overview
+This is a multi-page static website for **Fresh Bake Bakery**, a small local bakery in Hatfield, Pretoria. The site was built as part of a web development assignment to improve the bakery's online presence, showcase products, and make ordering easier.
 
-Pull this from your project proposal.
+The website features a warm, friendly design with rich images of baked goods. It includes four main pages: Home, About Us, Menu, and Contact.
 
-## Website Goals and Objectives
+## Features
+- Responsive design (works well on mobile and desktop)
+- Warm bakery colour scheme (beige, brown, peach tones)
+- Product showcase with "Order Now" buttons
+- Easy contact options via WhatsApp, phone, and email
+- Clean navigation between pages
+- Fast-loading structure using pure HTML and CSS
 
-Pull this from your project proposal.
+## Target Audience
+- Local families in Hatfield and surrounding Pretoria areas
+- Event planners needing custom cakes
+- Small businesses looking for catering or daily bread supply
 
-## Timeline and Milestones
+## Goals of the Website
+- Increase online visibility and reduce reliance on Instagram/WhatsApp only
+- Showcase fresh products clearly with prices
+- Make it easy for customers to view the menu and contact the bakery
+- Build brand recognition as a trusted neighbourhood bakery
 
-Pull this from your project proposal.
+## Technologies Used
+- HTML5
+- CSS3 (with responsive grid and flexbox)
+- No JavaScript (kept simple for assignment)
 
-## Sitemap
+## Folder Structure
+fresh-bake-bakery/
+├── index.html
+├── about.html
+├── menu.html
+├── contact.html
+├── style.css
+└── images/ (hero.jpg, about-bakery.jpg, bread.jpg, cakes.jpg, pastries.jpg, cookies.jpg)
+text## How to Run the Website
+1. Download or clone the project folder.
+2. Open the `index.html` file in any web browser (Chrome, Firefox, Edge).
+3. No installation or server needed — it's a static website.
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
 
-## References
+## Future Improvements (Optional)
+- Add a simple JavaScript order form
+- Integrate Google Maps for exact location
+- Connect real payment system (for advanced version)
 
-Ensure that all sources used in your assignment are cited and referenced using the Harvard referencing style.
+## Author
+Built by Tantswa Makasi for the Web Development Assignment.
+
+## Date
+April 2026

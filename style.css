@@ -1,0 +1,119 @@
+/* style.css - Fresh Bake Bakery (New Warm Design) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EDE0;
+    color: #3C2F2F;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #A67B5B;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #E89C7A;
+    padding: 14px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(rgba(166,123,91,0.85), rgba(166,123,91,0.85)), url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #A67B5B;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.2em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 32px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    color: #A67B5B;
+    margin: 18px 12px 8px;
+}
+
+.btn {
+    background-color: #E89C7A;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: #D67F5F;
+}
+
+footer {
+    background-color: #A67B5B;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
