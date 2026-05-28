@@ -1,6 +1,62 @@
 # Fresh Bake Bakery Website
 
 ## Project Overview
+This is a multi-page static website for **Fresh Bake Bakery**, a small local bakery in Hatfield, Pretoria. The site was built as part of a web development assignment.
+
+## Changelog - Part 2 Updates (May 2026)
+
+### Feedback from Part 1 Applied:
+- Updated and improved external CSS stylesheet
+- Enhanced overall styling and consistency
+
+### CSS Styling Improvements (Part 2):
+- Created clean external stylesheet with proper base styles
+- Improved typography (headings, paragraphs, line height)
+- Used CSS Grid and Flexbox for better desktop layout
+- Added hover effects and visual styling (shadows, transitions)
+- Implemented responsive design with breakpoints for desktop, tablet, and mobile
+- Used relative units and proper media queries
+
+### Responsive Design:
+- Desktop: Multi-column product grid
+- Tablet & Mobile: Single column layout with stacked navigation
+- Tested using browser developer tools
+
+## Responsive Design Screenshots
+
+### Desktop View (Menu Page)
+![Desktop View](screenshots/menu-desktop.jpg)
+
+### Tablet View (768px)
+![Tablet View](screenshots/menu-tablet.jpg)
+
+### Mobile View (375px)
+![Mobile View](screenshots/menu-mobile.jpg)
+
+## Features
+- Warm bakery colour scheme
+- Product showcase with prices
+- Easy contact options (WhatsApp, phone, email)
+- Fully responsive design
+
+## Technologies Used
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+
+## How to Run
+1. Open any `.html` file in your browser.
+2. No server needed.
+
+## Author
+Tanatswa Makasi (ST10533506)
+
+## Date
+May 2026
+
+
+# Fresh Bake Bakery Website
+
+## Project Overview
 This is a multi-page static website for **Fresh Bake Bakery**, a small local bakery in Hatfield, Pretoria. The site was built as part of a web development assignment to improve the bakery's online presence, showcase products, and make ordering easier.
 
 The website features a warm, friendly design with rich images of baked goods. It includes four main pages: Home, About Us, Menu, and Contact.
