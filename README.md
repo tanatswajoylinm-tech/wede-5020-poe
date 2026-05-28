@@ -24,8 +24,9 @@ This is a multi-page static website for **Fresh Bake Bakery**, a small local bak
 
 ## Responsive Design Screenshots
 
+
 ### Desktop View (Menu Page)
-![Desktop View](screenshots/menu-desktop.jpg)
+![Desktop View](screenshots/menu-desktop.jpg.pngnu-desktop.jpg)
 
 ### Tablet View (768px)
 ![Tablet View](screenshots/menu-tablet.jpg)
