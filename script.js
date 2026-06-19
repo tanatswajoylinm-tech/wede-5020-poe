@@ -290,3 +290,11 @@ document.querySelectorAll('.accordion-header').forEach(button => {
         item.classList.toggle('active');
     });
 });
+
+function showSuccessModal() {
+  document.getElementById('successModal').style.display = 'block';
+}
+
+function closeModal() {
+  document.getElementById('successModal').style.display = 'none';
+}

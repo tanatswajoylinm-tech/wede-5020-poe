@@ -69,4 +69,4 @@ Created commits regularly throughout development instead of only at the end of t
 - Leaflet.js for map
 - etc.
 
-**Live Demo:** []
+**Live Demo:** [https://grand-sprite-d48f0e.netlify.app/]

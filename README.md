@@ -126,7 +126,7 @@ April 2026
 ## Project Overview
 This is a multi-page static website for **Fresh Bake Bakery**, a small local bakery in Hatfield, Pretoria. The website aims to showcase products, provide easy online enquiry, and improve customer engagement.
 
-**Live Demo:** []
+**Live Demo:** [https://grand-sprite-d48f0e.netlify.app/]
 
 ## Changelog
 

@@ -104,39 +104,15 @@ L.marker([-25.7485, 28.2350]).addTo(map)
     <textarea id="message" placeholder="Your Message" required></textarea>
     <button type="submit">Send Message</button>
 </form>
-
-function validateForm(e) {
-    e.preventDefault();
-    let isValid = true;
-
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const phone = document.getElementById('phone').value.trim();
-
-    if (name.length < 3) {
-        alert("Name must be at least 3 characters");
-        isValid = false;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        alert("Please enter a valid email");
-        isValid = false;
-    }
-
-    if (phone && !/^\d{10}$/.test(phone)) {
-        alert("Phone number should be 10 digits");
-        isValid = false;
-    }
-
-    if (isValid) {
-        alert("Thank you! Your message has been received. (Simulated)");
-        // In real project you could use EmailJS or Formspree for actual sending
-        e.target.reset();
-    }
-    return false;
 }
-
+<!-- Success Modal -->
+<div id="successModal" class="modal" style="display: none;">
+  <div class="modal-content" style="background: white; padding: 30px; border-radius: 10px; max-width: 400px; margin: 100px auto; text-align: center;">
+    <h2>✅ Thank You!</h2>
+    <p>Your enquiry has been received. We will contact you within 24 hours.</p>
+    <button onclick="closeModal()" class="btn">Close</button>
+  </div>
+</div>
 
 </body>
 </html>
