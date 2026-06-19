@@ -52,7 +52,7 @@ This is a multi-page static website for **Fresh Bake Bakery**, a small local bak
 Tanatswa Makasi (ST10533506)
 
 ## Date
-May 2026
+28 May 2026
 
 
 # Fresh Bake Bakery Website
@@ -110,3 +110,13 @@ Built by Tantswa Makasi for the Web Development Assignment.
 
 ## Date
 April 2026
+
+## Changelog - Part 3 (June 2026)
+
+### Changes Made in Part 3
+- Implemented JavaScript enhancements (interactive map, form validation, lightbox gallery)
+- Added enquiry.html and improved contact form with validation
+- SEO improvements (meta tags, alt texts, headings)
+- Created robots.txt and sitemap.xml
+- Deployed live on Netlify
+- Updated README and added detailed changelog
