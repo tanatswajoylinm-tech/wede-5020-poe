@@ -1,0 +1,31 @@
+<!-- enquiry.html -->
+<section class="enquiry-section">
+  <h2>Make an Enquiry</h2>
+  <p>Fill in the form below for custom orders, catering, or general enquiries.</p>
+
+  <form id="enquiryForm" action="#" method="post" novalidate>
+    
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+
+    <label for="service">Type of Enquiry *</label>
+    <select id="service" name="service" required>
+      <option value="">-- Select --</option>
+      <option value="custom-cake">Custom Cake</option>
+      <option value="catering">Catering / Bulk Orders</option>
+      <option value="volunteer">Volunteer / Sponsorship</option>
+      <option value="general">General Enquiry</option>
+    </select>
+
+    <label for="message">Message / Details *</label>
+    <textarea id="message" name="message" rows="6" required placeholder="Please describe your order or enquiry..."></textarea>
+
+    <button type="submit" class="btn">Submit Enquiry</button>
+  </form>
+</section>

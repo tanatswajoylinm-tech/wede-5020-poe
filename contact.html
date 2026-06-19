@@ -25,6 +25,9 @@
             margin-bottom: 18px;
         }
     </style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+
 </head>
 <body>
 
@@ -75,6 +78,65 @@
     <footer>
         <p>&copy; 2026 Fresh Bake Bakery • Hatfield, Pretoria</p>
     </footer>
+
+<script src="script.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// Bakery location: Hatfield, Pretoria (approx coords)
+const map = L.map('map').setView([-25.7485, 28.2350], 15);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+L.marker([-25.7485, 28.2350]).addTo(map)
+    .bindPopup('<b>Fresh Bake Bakery</b><br>Hatfield, Pretoria<br><a href="https://www.google.com/maps">Get Directions</a>')
+    .openPopup();
+</script>
+
+<div id="map" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 12px;"></div>
+
+<form id="contactForm" action="#" method="POST" onsubmit="return validateForm(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <input type="tel" id="phone" placeholder="Phone Number">
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+
+function validateForm(e) {
+    e.preventDefault();
+    let isValid = true;
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+
+    if (name.length < 3) {
+        alert("Name must be at least 3 characters");
+        isValid = false;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email");
+        isValid = false;
+    }
+
+    if (phone && !/^\d{10}$/.test(phone)) {
+        alert("Phone number should be 10 digits");
+        isValid = false;
+    }
+
+    if (isValid) {
+        alert("Thank you! Your message has been received. (Simulated)");
+        // In real project you could use EmailJS or Formspree for actual sending
+        e.target.reset();
+    }
+    return false;
+}
+
 
 </body>
 </html>

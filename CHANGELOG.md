@@ -47,3 +47,26 @@ Improved code readability and maintainability through clear structured comments.
 HTML Commits-
 Improved Git commit practices by using clearer and more descriptive commit messages.
 Created commits regularly throughout development instead of only at the end of the project.
+
+# Fresh Bakery Website
+
+## Changelog - Part 3
+
+**Date:** 19 June 2026
+
+### New Features Added:
+- Implemented interactive accordion FAQ section using vanilla JavaScript.
+- Added real-time product search/filter functionality.
+- Enhanced forms with JavaScript validation and success modal.
+- Integrated Leaflet interactive map showing bakery locations.
+- Implemented lightbox gallery for product images.
+- Added CSS animations and smooth transitions.
+- Full SEO optimization (meta tags, headings, alt text, robots.txt, sitemap).
+- Deployed to Netlify.
+
+### Technologies Used:
+- HTML5, CSS3, JavaScript
+- Leaflet.js for map
+- etc.
+
+**Live Demo:** []

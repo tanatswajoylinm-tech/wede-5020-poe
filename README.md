@@ -120,3 +120,36 @@ April 2026
 - Created robots.txt and sitemap.xml
 - Deployed live on Netlify
 - Updated README and added detailed changelog
+
+# Fresh Bake Bakery Website
+
+## Project Overview
+This is a multi-page static website for **Fresh Bake Bakery**, a small local bakery in Hatfield, Pretoria. The website aims to showcase products, provide easy online enquiry, and improve customer engagement.
+
+**Live Demo:** []
+
+## Changelog
+
+### Part 3 Updates (June 2026)
+**Date:** 19 June 2026
+
+**Feedback Fixes from Part 2:**
+- Improved responsive design and consistency
+- Fixed any styling/SEO issues noted in feedback
+
+**New Features Added in Part 3:**
+- Interactive Accordion FAQ section using vanilla JavaScript
+- Real-time product search and filter functionality on Menu page
+- Enhanced JavaScript form validation on `enquiry.html` and `contact.html`
+- Interactive Leaflet map showing bakery location
+- Lightbox gallery for product images
+- CSS animations and smooth transitions on scroll/hover
+- Comprehensive SEO optimization (title tags, meta descriptions, alt texts, heading structure)
+- Created `robots.txt` and `sitemap.xml`
+- Deployed to Netlify
+
+**Technologies Used:**
+- HTML5, CSS3 (Flexbox, Grid, Media Queries, Animations)
+- Vanilla JavaScript + Leaflet.js
+
+**Author:** Tanatswa Joelynn Makasi (ST10533506)
